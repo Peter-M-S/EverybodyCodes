@@ -20,11 +20,7 @@ def get_word(grid, rows=None, cols=None) -> str:
 
 
 def get_power(word) -> int:
-  power = 0
-  # if not word: return power
-  for i, s in enumerate(word, start=1):
-    power += i * (ord(s) - 64)
-  return power
+  return sum([i * (ord(s) - 64) for i, s in enumerate(word, start=1)])
 
 
 part1 = 0
