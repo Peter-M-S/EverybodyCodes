@@ -74,8 +74,6 @@ turns, wheels = get_turns_and_wheels(notes)
 wheels_arranged = arrange(turns, wheels)
 print(wheels, wheels_arranged)
 
-
-
-
+# missing out Part 3
 
 print(f"Part III: {part3}")
