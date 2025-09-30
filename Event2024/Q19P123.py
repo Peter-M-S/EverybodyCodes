@@ -48,6 +48,7 @@ n = 100
 # # did not work, as for each round (starting at rotation_point (1, 1))
 # # also STARTS WITH the BEGINNING of seq, not continue from last seq-position
 # # this did not make a difference in part1 and example!
+# # Could find this only with help of reddit.
 # rotation_points *= n
 # for pos, rot in zip(rotation_points, seq*len(rotation_points)):
 #   grid = rotate(pos, grid, rot)
