@@ -25,13 +25,13 @@ def get_graph(grid):
   return G
 
 
-part1 = 0
-with open(f"input1.txt", "r") as f: notes = f.read()
-grid, palms, start = get_grid(notes)
-G = get_graph(grid)
-
-part1 = max([nx.shortest_path_length(G,start[0], p) for p in palms])
-print(f"Part   I: {part1}")
+# part1 = 0
+# with open(f"input1.txt", "r") as f: notes = f.read()
+# grid, palms, start = get_grid(notes)
+# G = get_graph(grid)
+#
+# part1 = max([nx.shortest_path_length(G,start[0], p) for p in palms])
+# print(f"Part   I: {part1}")
 
 
 part2 = 0
